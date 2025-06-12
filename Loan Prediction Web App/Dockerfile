@@ -1,5 +1,5 @@
 # base image
-FROM python:3.7.3
+FROM python:3.12.11
 
 # streamlit-specific commands
 RUN mkdir -p /root/.streamlit
