@@ -3,3 +3,4 @@ sip
 requests>=2.0.0
 requests_cache>=0.4.13
 pyqtgraph>=0.10
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
