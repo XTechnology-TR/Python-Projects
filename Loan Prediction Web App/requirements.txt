@@ -1,3 +1,6 @@
 pycaret==2.2.3
 joblib==0.16.0
 streamlit==0.73.1
+mlflow>=3.4.0rc0 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
